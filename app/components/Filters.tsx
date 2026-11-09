@@ -29,6 +29,11 @@ export default function SVGFilters() {
                     operator="over"
                 />
             </filter>
+            {(Array.from({ length: 10 })).map((_, i) => (
+                <filter key={i} id={"gaussian-blur-"+(i+1)*10}>
+                    <feGaussianBlur stdDeviation={(i+1)*10} />
+                </filter>
+            ))}
         </svg>
     </>
 }
