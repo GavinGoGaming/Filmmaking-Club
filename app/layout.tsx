@@ -15,8 +15,11 @@ const instrumentSerif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "South Pasadena Filmmaking Clubs",
-  description: "Official website for SPMS Film Club and SPHS Filmmaking Club",
+  title: "SPHS Tiger Film Fest",
+  description: "Official website for SPMS Film Club and SPHS Tiger Film Festival",
+  icons: {
+    icon: "/filmfest-logo.png",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
