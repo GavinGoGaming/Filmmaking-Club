@@ -81,15 +81,15 @@ export default function Home() {
         <PastEventCard
           title="Tiger Cub Film Festival 26"
           subtitle="SPMS Film Club 2026"
-          // href="#films"
-          previewImage="/tcff25.jpg"
+          href="https://drive.google.com/drive/u/1/folders/14sangKvwqaFsLawewxfCUiMSSo0Eg6mx"
+          previewImage="/tcff26.jpg"
         />
 
         <PastEventCard
           title="Tiger Cub Film Festival 25"
           subtitle="SPMS Film Club 2025"
           href="https://drive.google.com/drive/u/1/folders/1VKoPYOZdB1dePAnOqKqxcAByhQvcngVI"
-          previewImage="/tcff25.jpg"
+          previewImage="/ff25.png"
         />
       </section>
 

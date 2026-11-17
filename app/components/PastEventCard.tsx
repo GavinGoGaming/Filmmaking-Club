@@ -19,7 +19,7 @@ export default function PastEventCard({
       <div className="event-details">
         <h3>{title}</h3>
         <p>{subtitle}</p>
-        <a className="outline-button" href={href}>
+        <a className="outline-button" rel="_blank" href={href}>
           View films
         </a>
       </div>
